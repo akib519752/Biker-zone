@@ -192,10 +192,11 @@
       <!--Featured Bike-->
       <section class="">
         <h2 class="text-3xl md:text-5xl font-semibold text-center my-24">Featured Bikes In This Year</h2>
-        <div class="flex flex-col md:justify-evenly">
-         <img class="mx-auto" src="images/others/feature-bike.png" alt="">
-         <img class="mx-auto" src="images/others/feature-bike.png" alt="">
-         <img class="mx-auto" src="images/others/feature-bike.png" alt="">
+        <div class="flex items-center flex-col md:flex-row justify-evenly">
+          <!--<div class="flex flex-col md:flex-row justify-evenly">-->
+         <img class="w-3/4 md:w-1/2 " src="images/others/feature-bike.png" alt="">
+         <img class="w-3/4 md:w-1/2 " src="images/others/feature-bike.png" alt="">
+         <img class="w-3/4 md:w-1/2" src="images/others/feature-bike.png" alt="">
         </div>
       </section>
       <section>
@@ -332,6 +333,62 @@
           </div>
         </div>
       </section>
+      <section class="my-24">
+        <h2 class="text-5xl font-semibold text-center my-24">Frequently Asked <span class="text-bike-primary">Questions</span></h2>
+        <div class="hero">
+          <div class="hero-content flex-col lg:flex-row lg:gap-24">
+            <img
+              src="/images/others/faq.png"
+              class="w-1/2 lg:max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati doloremque fugit cumque repudiandae atque sunt voluptates dolores laborum, animi fugiat.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id molestiae, recusandae quam adipisci enim minus quaerat aliquid, laboriosam similique ipsam maxime nulla repudiandae culpa ipsa!</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat explicabo reprehenderit accusamus, reiciendis at, nulla, iste soluta perspiciatis dignissimos consequatur quam. Nemo ipsam nisi blanditiis neque fuga eligendi dignissimos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+      <footer class="footer bg-neutral text-neutral-content p-10">
+        <aside>
+         
+          <p>
+            ACME Industries Ltd.
+            <br />
+            Providing reliable tech since 1992
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Social</h6>
+          <div class="grid grid-cols-1 gap-4">
+            <a>
+            <img class="w-36" src="/images/others/android.png" alt="">
+            </a>
+            <a>
+              <img class="w-36" src="/images/others/ios.png" alt="">
+            </a>
+          </div>
+        </nav>
+      </footer>
+   
 </body>
 </html>
